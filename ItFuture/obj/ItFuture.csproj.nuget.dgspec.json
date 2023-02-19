@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/mikhail/Документы/pe/ItFuture/ItFuture.csproj": {}
+    "D:\\сем\\ПИ\\Сайт\\itfuture\\ItFuture.csproj": {}
   },
   "projects": {
-    "/home/mikhail/Документы/pe/ItFuture/ItFuture.csproj": {
+    "D:\\сем\\ПИ\\Сайт\\itfuture\\ItFuture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mikhail/Документы/pe/ItFuture/ItFuture.csproj",
+        "projectUniqueName": "D:\\сем\\ПИ\\Сайт\\itfuture\\ItFuture.csproj",
         "projectName": "ItFuture",
-        "projectPath": "/home/mikhail/Документы/pe/ItFuture/ItFuture.csproj",
-        "packagesPath": "/home/mikhail/.nuget/packages/",
-        "outputPath": "/home/mikhail/Документы/pe/ItFuture/obj/",
+        "projectPath": "D:\\сем\\ПИ\\Сайт\\itfuture\\ItFuture.csproj",
+        "packagesPath": "C:\\Users\\jorak\\.nuget\\packages\\",
+        "outputPath": "D:\\сем\\ПИ\\Сайт\\itfuture\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mikhail/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jorak\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
