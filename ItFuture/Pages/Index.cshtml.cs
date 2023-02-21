@@ -5,6 +5,7 @@ namespace ItFuture.Pages;
 
 public class IndexModel : PageModel
 {
+    public List<Quiz>? quizzes;
     private readonly ILogger<IndexModel> _logger;
 
     public IndexModel(ILogger<IndexModel> logger)
