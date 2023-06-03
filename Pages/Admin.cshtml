@@ -1,0 +1,18 @@
+@page
+@model AdminModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <form enctype="multipart/form-data" method="post">
+        <dl>
+            <input name="i" type="number">
+            <input name="picture" type="file">
+
+        </dl>
+        <input asp-page-handler="Upload" class="btn" type="submit" value="Upload">
+    </form>
+
+</div>
+

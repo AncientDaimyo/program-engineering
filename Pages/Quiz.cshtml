@@ -1,0 +1,47 @@
+@page
+@model QuizModel
+@{
+    ViewData["Title"] = "IT Future - Выкторины для всех";
+}
+
+
+
+<div class="text-center">
+    <form class="quiz-form" method="post">
+            @if (Model.currentQuiz != null) { 
+                @if (Model.currentQuiz.Questions != null) {
+                    int i = 1; 
+                    @foreach (var Question in Model.currentQuiz.Questions) {   
+                        <div class="question-card">
+                            <p class="question-text">@Question.QuestionText</p>
+                            @if (Question.Answers != null){
+                                <div class="radio-group">
+                                @foreach (var Answer in Question.Answers)
+                                {
+                                    string str = "answer" + i;
+                                        <label class="answer-card">
+                                            <input class="radio-button" name=@str asp-for=@str type="radio" value=@Answer.Id/>
+                                            <div class="answer-block">@Answer.AnswerText</div>
+                                        </label>
+                                }
+                                </div>
+                                i++;
+                            }
+                        </div>
+                    }
+                }
+                else {
+                    <p>Ошибка</p>
+                }
+            }
+            else {
+                <p>Викторина не найдена</p>
+            }
+            <input class="submit" type="submit" value="Отправить">
+        </form>
+        
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/quiz.css" asp-append-version="true" />
+}

@@ -1,0 +1,16 @@
+@page
+@model ResultModel
+@{
+    ViewData["Title"] = "IT Future - Выкторины для всех";
+
+}
+
+<div class="congratulations-block">
+    <h3>Поздравляем!</h3>
+    <h3>Ваш результат:</h3>
+    <h2>@Model.result из @Model.i</h2>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/result.css" asp-append-version="true" />
+}

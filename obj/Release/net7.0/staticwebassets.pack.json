@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\itf.bundle.scp.css",
+      "PackagePath": "staticwebassets\\itf.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\css\\quiz.css",
+      "PackagePath": "staticwebassets\\css\\quiz.css"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\images\\ITFuture.png",
+      "PackagePath": "staticwebassets\\images\\ITFuture.png"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\images\\Quiz1.jpg",
+      "PackagePath": "staticwebassets\\images\\Quiz1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\images\\Quiz2.jpg",
+      "PackagePath": "staticwebassets\\images\\Quiz2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\images\\Quiz3.jpg",
+      "PackagePath": "staticwebassets\\images\\Quiz3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\images\\account.png",
+      "PackagePath": "staticwebassets\\images\\account.png"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\images\\ball.jpg",
+      "PackagePath": "staticwebassets\\images\\ball.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\images\\icon-profile.svg",
+      "PackagePath": "staticwebassets\\images\\icon-profile.svg"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\images\\user.svg",
+      "PackagePath": "staticwebassets\\images\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adfpb\\OneDrive\\Рабочий стол\\ITF\\itf\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.itf.props",
+      "PackagePath": "build\\itf.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.itf.props",
+      "PackagePath": "buildMultiTargeting\\itf.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.itf.props",
+      "PackagePath": "buildTransitive\\itf.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.itf.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

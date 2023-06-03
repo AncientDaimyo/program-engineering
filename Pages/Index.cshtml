@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "IT Future - Выкторины для всех";
+}
+
+<div class="text-center">
+    @foreach (var Quiz in Model.Quizs)
+    {
+        <div class="quiz-card">
+            <a asp-page="Quiz" asp-route-id=@Quiz.Id></a>
+            <div class="quiz-image-block">
+            @{
+                    
+                if(Quiz.Image != null) {
+                    @Html.Raw("<img class=\"quiz-image\" src=\"data:image/jpeg;base64," 
+                            + Convert.ToBase64String(Quiz.Image) + "\" />")
+                }   
+            }
+            </div>
+            <div class="quiz-info-block">
+                <div class="text-box-name">
+                    <a asp-page="Quiz" asp-route-id=@Quiz.Id>
+                        <h4>@Quiz.Name</h4>
+                    </a>
+                </div>
+                <div class="text-box"><p class="quiz-card-text">Сложность - @Quiz.Difficulty</p></div>
+                <div class="text-box"><p class="quiz-card-text">Тема - @Quiz.Theme</p></div>
+            </div>
+            
+        </div>
+    }
+
+</div>
+
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+}

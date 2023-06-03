@@ -1,0 +1,73 @@
+@page
+@model AccountModel
+
+
+@if(HttpContext.Session.Keys.Contains("Username")) {
+    
+    @foreach (var u in Model.Users)
+    {
+        if(HttpContext.Session.GetString("Username") == u.Username)
+        {
+            <div class="account-card">
+                <h1 class="username">@HttpContext.Session.GetString("Username")</h1>
+                @if(@HttpContext.Session.GetString("Username") == "administrator"){
+                    <a asp-page="Admin" class="button-ms">
+                        <p>Админка</p>
+                    </a>
+                }  
+                <div class="score-table">
+                    @foreach (var r in u.Results)
+                    {
+                        <div class="result">
+                            <p class="result-text">
+                                @foreach (var q in Model.Quizs)
+                                {
+                                    if(r.QuizId == q.Id) {
+                                        @q.Name
+                                    }
+                                }
+                            </p>
+                            <p class="result-text">
+                                Результат: @r.Score
+                            </p>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    }
+    <form method="post" asp-page-handler="Logout">
+        <input type="submit" value="Выйти">
+    </form>
+    
+}
+else {
+    <div class="enter-page">
+        <form class="account-form" asp-page-handler="SignIn" method="post">
+            <label>
+                <span>Логин</span>
+                <input class="input-text" type="text" name="Username">
+            </label>
+            <label>
+                <span>Пароль</span>
+                <input class="input-text" type="password" name="Password">
+            </label>
+            <input class="enter-submit" type="submit" value="Войти">
+        </form>
+        <form class="account-form" asp-page-handler="SignUp" method="post">
+            <label>
+                <span>Логин</span>
+                <input class="input-text" type="text" name="Username">
+            </label>
+            <label>
+                <span>Пароль</span>
+                <input class="input-text" type="password" name="Password">
+            </label>
+            <input class="enter-submit" type="submit" value="Зарегистрироваться">
+        </form>
+    </div>
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/account.css" asp-append-version="true" />
+}

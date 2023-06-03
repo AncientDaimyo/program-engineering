@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ItFuture</title>
+    <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ItFuture.styles.css"asp-append-version="true"/>
+     @await RenderSectionAsync("Styles", required: false)
+</head>
+<body class="body">
+    <div class="top">
+    <header>
+        <div class = "header-container">
+            <div class = "logo-container" >
+                <img class="logo-png" src="~/images/ITFuture.png">
+            </div>
+            <div class = "buttons-container">
+                <a asp-page="Index" class="button-ms">
+                    <p>Главная</p>
+                </a>
+                <a asp-page="Account" class="button-profile">
+                    <img class="icon-profile" src="~/images/account.png"/>
+                </a>
+            </div>
+        </div>
+        <div class= "border">
+            <div class = "border-box">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        @RenderBody()
+    </div>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="footer-container">
+            &copy; 2023 - ITFuture - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
